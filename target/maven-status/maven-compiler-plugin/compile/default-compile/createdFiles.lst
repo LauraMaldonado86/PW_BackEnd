@@ -15,7 +15,6 @@ com\portfolioweb\lauramaldonado\Service\SExperiencia.class
 com\portfolioweb\lauramaldonado\Security\Dto\NuevoUsuario.class
 com\portfolioweb\lauramaldonado\Repository\RExperiencia.class
 com\portfolioweb\lauramaldonado\Security\Repository\iRolRepository.class
-com\portfolioweb\lauramaldonado\WebConfig.class
 com\portfolioweb\lauramaldonado\Dto\dtoEducacion.class
 com\portfolioweb\lauramaldonado\Interface\IPersonaService.class
 com\portfolioweb\lauramaldonado\Repository\REducacion.class
