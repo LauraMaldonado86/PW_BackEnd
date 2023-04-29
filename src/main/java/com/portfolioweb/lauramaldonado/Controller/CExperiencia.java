@@ -25,6 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/explab")
+//@CrossOrigin(origins = "http://localhost:4200")
 @CrossOrigin(origins = "https://pw-frontend.web.app")
 public class CExperiencia {
 
@@ -47,7 +48,7 @@ public class CExperiencia {
     }
 
     @PostMapping("/create")
-    public ResponseEntity<?> cretae(@RequestBody dtoExperiencia dtoexp) {
+    public ResponseEntity<?> create(@RequestBody dtoExperiencia dtoexp) {
         if (StringUtils.isBlank(dtoexp.getNombreE())) {
             return new ResponseEntity(new Mensaje("El nombre es obligatorio"), HttpStatus.BAD_REQUEST);
         }
