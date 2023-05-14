@@ -25,8 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/educacion")
-//@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "https://pw-frontend.web.app")
+@CrossOrigin(origins = {"https://pw-frontend.web.app","http://localhost:4200"})
 public class CEducacion {
 
     @Autowired
@@ -56,7 +55,7 @@ public class CEducacion {
             return new ResponseEntity(new Mensaje("Ese nombre ya existe"), HttpStatus.BAD_REQUEST);
         }
 
-        Educacion educacion = new Educacion(dtoeducacion.getNombreE(), dtoeducacion.getDescripcionE());
+        Educacion educacion = new Educacion(dtoeducacion.getNombreE(), dtoeducacion.getPeriodoE(), dtoeducacion.getDescripcionE());
         sEducacion.save(educacion);
 
         return new ResponseEntity(new Mensaje("Educacion agregada"), HttpStatus.OK);

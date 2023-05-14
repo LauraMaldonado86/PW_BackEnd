@@ -15,19 +15,21 @@ public class Experiencia {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String nombreE;
+    private String periodoE;
     private String descripcionE;
-    
+     
     //Constructores
 
     public Experiencia() {
     }
 
-    public Experiencia(String nombreE, String descripcionE) {
+    public Experiencia(String nombreE, String periodoE, String descripcionE) {
         this.nombreE = nombreE;
+        this.periodoE = periodoE;
         this.descripcionE = descripcionE;
     }
-    
-    // Getters y Setter
+
+   // Getters y Setter
 
     public int getId() {
         return id;
@@ -45,6 +47,14 @@ public class Experiencia {
         this.nombreE = nombreE;
     }
 
+    public String getPeriodoE() {
+        return periodoE;
+    }
+
+    public void setPeriodoE(String periodoE) {
+        this.periodoE = periodoE;
+    }
+
     public String getDescripcionE() {
         return descripcionE;
     }
@@ -52,5 +62,6 @@ public class Experiencia {
     public void setDescripcionE(String descripcionE) {
         this.descripcionE = descripcionE;
     }
-    
+
+
 }

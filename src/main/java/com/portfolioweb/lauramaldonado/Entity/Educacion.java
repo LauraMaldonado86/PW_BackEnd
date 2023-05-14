@@ -16,13 +16,15 @@ public class Educacion {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String nombreE;
+    private String periodoE;
     private String descripcionE;
 
     public Educacion() {
     }
 
-    public Educacion(String nombreE, String descripcionE) {
+    public Educacion(String nombreE, String periodoE, String descripcionE) {
         this.nombreE = nombreE;
+        this.periodoE = periodoE;
         this.descripcionE = descripcionE;
     }
 
@@ -42,6 +44,14 @@ public class Educacion {
         this.nombreE = nombreE;
     }
 
+    public String getPeriodoE() {
+        return periodoE;
+    }
+
+    public void setPeriodoE(String periodoE) {
+        this.periodoE = periodoE;
+    }
+
     public String getDescripcionE() {
         return descripcionE;
     }
@@ -49,5 +59,5 @@ public class Educacion {
     public void setDescripcionE(String descripcionE) {
         this.descripcionE = descripcionE;
     }
-    
+
 }

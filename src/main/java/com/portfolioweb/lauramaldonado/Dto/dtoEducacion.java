@@ -10,13 +10,16 @@ public class dtoEducacion {
     @NotBlank
     private String nombreE;
     @NotBlank
+    private String periodoE;
+    @NotBlank
     private String descripcionE;
 
     public dtoEducacion() {
     }
 
-    public dtoEducacion(String nombreE, String descripcionE) {
+    public dtoEducacion(String nombreE, String periodoE, String descripcionE) {
         this.nombreE = nombreE;
+        this.periodoE = periodoE;
         this.descripcionE = descripcionE;
     }
 
@@ -28,6 +31,14 @@ public class dtoEducacion {
         this.nombreE = nombreE;
     }
 
+    public String getPeriodoE() {
+        return periodoE;
+    }
+
+    public void setPeriodoE(String periodoE) {
+        this.periodoE = periodoE;
+    }
+
     public String getDescripcionE() {
         return descripcionE;
     }
@@ -35,5 +46,7 @@ public class dtoEducacion {
     public void setDescripcionE(String descripcionE) {
         this.descripcionE = descripcionE;
     }
+
+
     
 }

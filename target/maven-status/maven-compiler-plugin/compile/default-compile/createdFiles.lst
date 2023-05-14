@@ -1,5 +1,6 @@
 com\portfolioweb\lauramaldonado\Security\Entity\Usuario.class
 com\portfolioweb\lauramaldonado\Repository\IPersonaRepository.class
+com\portfolioweb\lauramaldonado\Controller\CProyectos.class
 com\portfolioweb\lauramaldonado\Security\Controller\AuthController.class
 com\portfolioweb\lauramaldonado\Controller\CEducacion.class
 com\portfolioweb\lauramaldonado\Security\Entity\UsuarioPrincipal.class
@@ -15,16 +16,18 @@ com\portfolioweb\lauramaldonado\Service\SExperiencia.class
 com\portfolioweb\lauramaldonado\Security\Dto\NuevoUsuario.class
 com\portfolioweb\lauramaldonado\Repository\RExperiencia.class
 com\portfolioweb\lauramaldonado\Security\Repository\iRolRepository.class
+com\portfolioweb\lauramaldonado\Dto\dtoPersona.class
 com\portfolioweb\lauramaldonado\Service\Shys.class
 com\portfolioweb\lauramaldonado\Entity\hys.class
 com\portfolioweb\lauramaldonado\Dto\dtoEducacion.class
-com\portfolioweb\lauramaldonado\Interface\IPersonaService.class
 com\portfolioweb\lauramaldonado\Repository\REducacion.class
+com\portfolioweb\lauramaldonado\Entity\Proyectos.class
 com\portfolioweb\lauramaldonado\Security\Repository\iUsuarioRepository.class
 com\portfolioweb\lauramaldonado\Security\jwt\JwtProvider.class
 com\portfolioweb\lauramaldonado\Security\Controller\Mensaje.class
 com\portfolioweb\lauramaldonado\Controller\CHys.class
 com\portfolioweb\lauramaldonado\Dto\dtoHys.class
+com\portfolioweb\lauramaldonado\Repository\RProyectos.class
 com\portfolioweb\lauramaldonado\LauramaldonadoApplication.class
 com\portfolioweb\lauramaldonado\Security\jwt\JwtTokenFilter.class
 com\portfolioweb\lauramaldonado\Entity\Experiencia.class
@@ -36,4 +39,6 @@ com\portfolioweb\lauramaldonado\Security\Entity\Rol.class
 com\portfolioweb\lauramaldonado\Security\Service\UsuarioService.class
 com\portfolioweb\lauramaldonado\Service\SEducacion.class
 com\portfolioweb\lauramaldonado\Repository\Rhys.class
+com\portfolioweb\lauramaldonado\Dto\dtoProyectos.class
 com\portfolioweb\lauramaldonado\Security\MainSecurity.class
+com\portfolioweb\lauramaldonado\Service\SProyectos.class

@@ -1,10 +1,15 @@
+C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Dto\dtoProyectos.java
+C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Entity\Proyectos.java
+C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Repository\RProyectos.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Service\ImpPersonaService.java
+C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Dto\dtoPersona.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Dto\dtoExperiencia.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Repository\Rhys.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Security\Repository\iRolRepository.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Security\Dto\JwtDto.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Service\SEducacion.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Security\Entity\UsuarioPrincipal.java
+C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Service\SProyectos.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Security\Entity\Rol.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Controller\CEducacion.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Security\MainSecurity.java
@@ -15,6 +20,7 @@ C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\laur
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Security\Enums\RolNombre.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Controller\CExperiencia.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Entity\hys.java
+C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Controller\CProyectos.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Security\jwt\JwtTokenFilter.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Entity\Educacion.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Security\Controller\AuthController.java
@@ -25,7 +31,6 @@ C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\laur
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Security\Dto\NuevoUsuario.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Security\Service\UserDetailsImpl.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Security\Repository\iUsuarioRepository.java
-C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Interface\IPersonaService.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Entity\Persona.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Controller\PersonaController.java
 C:\Users\W10\Desktop\PortfolioWeb\PW_BackEnd\src\main\java\com\portfolioweb\lauramaldonado\Repository\REducacion.java
